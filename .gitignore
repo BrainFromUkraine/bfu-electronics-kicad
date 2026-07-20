@@ -26,3 +26,7 @@ Desktop.ini
 __pycache__/
 *.pyc
 .venv/
+
+# incoming — тимчасові файли не комітимо, крім README
+incoming/*
+!incoming/README.md
