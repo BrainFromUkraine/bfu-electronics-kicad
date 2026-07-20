@@ -1,0 +1,19 @@
+# Стабільні закінчення рядків між платформами
+* text=auto eol=lf
+
+# KiCad — завжди LF, інакше diff показує зміненим весь файл
+*.kicad_mod text eol=lf
+*.kicad_sym text eol=lf
+*.kicad_pcb text eol=lf
+*.kicad_sch text eol=lf
+*.kicad_pro text eol=lf
+fp-lib-table text eol=lf
+sym-lib-table text eol=lf
+
+# Бінарні — не чіпати
+*.pdf binary
+*.step binary
+*.stp binary
+*.wrl binary
+*.png binary
+*.zip binary
