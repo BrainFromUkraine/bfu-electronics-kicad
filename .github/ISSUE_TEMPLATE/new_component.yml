@@ -1,0 +1,49 @@
+name: Новий компонент
+description: Запит на додавання футпринта в бібліотеку
+title: "[Компонент] "
+labels: ["новий компонент"]
+body:
+  - type: input
+    id: partnumber
+    attributes:
+      label: Партномер
+      description: Точна назва від виробника
+      placeholder: ST7789V
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Категорія
+      options:
+        - BFU_RF
+        - BFU_MCU
+        - BFU_Display
+        - BFU_Audio
+        - BFU_GNSS
+        - BFU_Power
+        - BFU_Connector
+        - BFU_Sensor
+    validations:
+      required: true
+  - type: input
+    id: datasheet
+    attributes:
+      label: Джерело розмірів
+      description: Посилання на даташит або офіційну бібліотеку виробника. Без джерела компонент не додається.
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: package
+    attributes:
+      label: Корпус
+      description: Габарити, кількість і крок падів, SMD/THT
+      placeholder: |
+        24.0 x 38.5 x 3.87 мм
+        22 краєві SMD-пади, крок 2.54 мм
+  - type: textarea
+    id: notes
+    attributes:
+      label: Особливості
+      description: Keepout-зони антени, теплові пади, орієнтація піна 1 тощо

@@ -1,0 +1,33 @@
+name: Помилка у футпринті
+description: Невідповідність розмірів, падів чи шовкографії
+title: "[Помилка] "
+labels: ["помилка"]
+body:
+  - type: input
+    id: footprint
+    attributes:
+      label: Футпринт
+      placeholder: BFU_RF:E22-900M30S
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: У чому невідповідність
+      description: Що очікувалось за даташитом і що є у футпринті
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Посилання на даташит
+    validations:
+      required: true
+  - type: dropdown
+    id: verified
+    attributes:
+      label: Як виявлено
+      options:
+        - Звірено з даташитом
+        - Виготовлено плату, не сіло
+        - 3D-перегляд / DRC

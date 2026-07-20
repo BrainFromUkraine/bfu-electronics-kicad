@@ -1,0 +1,11 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BFU_RF")(type "KiCad")(uri "${BFU_LIB}/BFU_RF.pretty")(options "")(descr "BFU Electronics - RF / LoRa / Wireless modules"))
+  (lib (name "BFU_MCU")(type "KiCad")(uri "${BFU_LIB}/BFU_MCU.pretty")(options "")(descr "BFU Electronics - MCU boards & modules (ESP32 etc.)"))
+  (lib (name "BFU_Display")(type "KiCad")(uri "${BFU_LIB}/BFU_Display.pretty")(options "")(descr "BFU Electronics - Displays (TFT, OLED, e-Paper)"))
+  (lib (name "BFU_Audio")(type "KiCad")(uri "${BFU_LIB}/BFU_Audio.pretty")(options "")(descr "BFU Electronics - Audio (I2S mic, amplifiers)"))
+  (lib (name "BFU_GNSS")(type "KiCad")(uri "${BFU_LIB}/BFU_GNSS.pretty")(options "")(descr "BFU Electronics - GNSS / GPS modules"))
+  (lib (name "BFU_Power")(type "KiCad")(uri "${BFU_LIB}/BFU_Power.pretty")(options "")(descr "BFU Electronics - Power (regulators, charging, battery)"))
+  (lib (name "BFU_Connector")(type "KiCad")(uri "${BFU_LIB}/BFU_Connector.pretty")(options "")(descr "BFU Electronics - Connectors (USB, headers, JST, IPEX)"))
+  (lib (name "BFU_Sensor")(type "KiCad")(uri "${BFU_LIB}/BFU_Sensor.pretty")(options "")(descr "BFU Electronics - Sensors (IMU, environmental)"))
+)
